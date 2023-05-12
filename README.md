@@ -1,117 +1,76 @@
-# BankBridge
-C'est un système de gestion Bancaire en utilisant :
- les interfaces graphiques en java SWING,
- Et une base de données avec MySQL.
-Le système représente la gestion de toutes les données et les enregistrements liés
-aux comptes bancaires, et aux clients.
-Vous pouvez créer la première interface du projet pour principalement 3 types
-d’utilisateurs – administrateur, client et banquier afin que chacun puisse se connecter
-au système avec un nom d’utilisateur/mot de passe valide, voir ses coordonnées et
-effectuer ses opérations respectives.
-Les fonctionnalités du système :
-Partie Client :
- Consulter ces comptes bancaires.
- Consulter son solde.
-Partie Banquier :
- Consulter la liste des comptes bancaires.
- Rechercher un compte bancaire.
- Débiter ou Créditer un compte bancaire.
- Effectuer un virement.
-Partie Administrateur :
- Gérer les comptes bancaires.
- Gérer les clients.
-Exemple pour l’interface de la gestion des Comptes : elle contient une liste qui
-représente les descriptions des comptes dans la banque. En plus, il doit contenir 5
-boutons nommés : "Ajouter", "Modifier", "Supprimer", "Enregistrer", "Fermer".
-Le bouton "Ajouter" permet d’insérer dans la liste un compte. 
-Le bouton "Modifier" permet de changer les données d’un compte qui existe déjà dans la liste.
-Le bouton "Supprimer" permet de supprimer un utilisateur. 
-Le bouton "Enregistrer" permet d’enregistrer la liste des comptes dans la base de données
-et le bouton "Fermer" pour quitter l’interface.
-# Project Title
+# BankBridge: Your Complete Banking Management System
 
-One Paragraph of project description goes here
+BankBridge is a powerful banking management system that makes use of Java SWING graphical interfaces and a robust MySQL database. It is designed to handle all data and records related to bank accounts and customers, with a wide range of features for customers, bankers, and administrators.
 
-## Getting Started
+Customers can easily view their account balances and banking accounts linked to them, while bankers have access to all banking accounts in the database and can perform various banking operations such as deposits, withdrawals, and transfers. Administrators have complete control over the system, allowing them to manage both banking accounts and user accounts. They can search through them, modify them, delete them, or add new ones as needed.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Getting Started with BankBridge
+
+Follow these simple steps to get started with BankBridge:
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Before you start, make sure that you have the following software installed on your machine:
 
 ```
-Give examples
+  Java IDE (We recommend IntelliJ IDEA)
+  MySQL Workbench (already configure and running server)
 ```
 
-### Installing
+### Installation
 
-A step by step series of examples that tell you how to get a development env running
+1. Import the bank.sql database schema into your MySQL server.
+2. Verify that the values in conf.properties match your local MySQL server configuration.
+3. Open the project folder in your preferred IDE.
+4. Test the connection to the database from the IDE. If the conf.properties file was configured correctly, you should receive a successful connection message.
 
-Say what the step will be
+## Using BankBridge
 
-```
-Give the example
-```
+Once you have the development environment set up and the project is running, you can start using BankBridge. The following is a quick guide to the system's main features:
 
-And repeat
+### Customer Interface
 
-```
-until finished
-```
+After logging in, customers will have access to the following features:
 
-End with an example of getting some data out of the system or using it for a little demo
+* View account balances
+* View banking accounts linked to their profile
 
-## Running the tests
+### Banker Interface
 
-Explain how to run the automated tests for this system
+After logging in, bankers will have access to the following features:
 
-### Break down into end to end tests
+* View all banking accounts in the database
+* Search through banking accounts by account number or customer name or account type
+* Perform banking operations such as deposits, withdrawals, and transfers
 
-Explain what these tests test and why
+### Admin Interface
 
-```
-Give an example
-```
+After logging in, administrators will have access to the following features:
 
-### And coding style tests
+* View all banking accounts and user accounts in the database
+* Search through banking accounts and user accounts by account number, customer name, or username
+* Modify banking accounts and user accounts by double clicking on the columns in the table and then pressing the save button to commit the changes.
+* Delete banking accounts and user accounts
+* Add new banking accounts and user accounts
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+That's it! We hope this guide helps you get started with using BankBridge. If you have any questions or encounter any issues, please refer to the documentation or reach out to us for support.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+BankBridge was built using the following technologies:
 
-## Contributing
+* Java SWING - The GUI widget toolkit used
+* [JFormDesigner](https://www.formdev.com/) - The Java GUI designer used
+* [MySQL](https://www.mysql.com/products/workbench/) - Used for the database management
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Author
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+BankBridge was created by Yassin Manita, a passionate software engineering student, who has put in countless hours to make this project a success. Check out my [LinkedIn](https://tn.linkedin.com/in/yassin-manita12) for more information.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+We would like to thank all the individuals whose code was used, as well as those who provided inspiration and support.
