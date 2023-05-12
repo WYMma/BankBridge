@@ -1,0 +1,170 @@
+JFDML JFormDesigner: "8.0.4.0.266" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+			"$columnCount": 6
+			"$rowCount": 9
+		} ) {
+			name: "Panel1"
+			"maximumSize": new java.awt.Dimension( 420, 540 )
+			"minimumSize": new java.awt.Dimension( 420, 540 )
+			"preferredSize": new java.awt.Dimension( 420, 540 )
+			auxiliary() {
+				"JavaCodeGenerator.customCreate": true
+			}
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "reduire"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Normal/-.png" )
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Hovered/-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Hovered/-h.png" )
+				"requestFocusEnabled": false
+				"focusPainted": false
+				"focusable": false
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"minimumSize": &Dimension0 new java.awt.Dimension( 20, 20 )
+				"preferredSize": &Dimension1 new java.awt.Dimension( 20, 20 )
+				"maximumSize": &Dimension2 new java.awt.Dimension( 20, 20 )
+				"anchor": 9
+				"column": 4
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "fermer"
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Hovered/x-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Hovered/x-h.png" )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Normal/x.png" )
+				"focusable": false
+				"focusPainted": false
+				"requestFocusEnabled": false
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 5
+				"minimumSize": #Dimension0
+				"preferredSize": #Dimension1
+				"maximumSize": #Dimension2
+				"anchor": 9
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer1"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"rowSpan": 7
+				"hSizePolicy": 0
+				"vSizePolicy": 1
+				"minimumSize": new java.awt.Dimension( 420, 540 )
+				"preferredSize": new java.awt.Dimension( 212, 540 )
+				"maximumSize": new java.awt.Dimension( 420, 540 )
+				"row": 1
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer1"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"fill": 2
+				"hSizePolicy": 1
+				"vSizePolicy": 6
+				"row": 1
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer2"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 7
+				"fill": 2
+				"hSizePolicy": 1
+				"vSizePolicy": 6
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"alignmentX": 1.0f
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+				"text": "Login"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 2
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "userField"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 3
+				"hSizePolicy": 6
+				"vSizePolicy": 0
+				"preferredSize": new java.awt.Dimension( 150, 20 )
+				"fill": 1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"alignmentX": 0.5f
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+				"text": "Mot de Passe"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 4
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer2"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 1
+				"row": 5
+				"colSpan": 2
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passField"
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 5
+				"fill": 1
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer3"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 4
+				"row": 5
+				"colSpan": 2
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "loginButton"
+				"text": ""
+				"focusable": false
+				"focusPainted": false
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Hovered/login-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Hovered/login-h.png" )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/button/Normal/login.png" )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"column": 3
+				"row": 6
+				"vSizePolicy": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 708, 540 )
+		} )
+	}
+}
+

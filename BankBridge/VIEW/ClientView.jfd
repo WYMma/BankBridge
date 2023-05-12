@@ -1,0 +1,173 @@
+JFDML JFormDesigner: "8.0.3.0.246" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+			"$columnCount": 2
+			"$rowCount": 9
+			"hGap": 0
+			"vGap": 0
+		} ) {
+			name: "PanelP"
+			"maximumSize": new java.awt.Dimension( 900, 740 )
+			"minimumSize": new java.awt.Dimension( 900, 740 )
+			"preferredSize": new java.awt.Dimension( 900, 740 )
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "header"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/header.png" )
+				"text": ""
+				"borderPainted": false
+				"horizontalAlignment": 2
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"focusPainted": false
+				"background": new java.awt.Color( 23, 198, 191, 255 )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"colSpan": 2
+				"fill": 3
+				"vSizePolicy": 0
+				"useParentLayout": true
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer1"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 1
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+				add( new FormComponent( "javax.swing.JTable" ) {
+					name: "table1"
+					"alignmentX": 0.0f
+					"alignmentY": 0.0f
+					"autoCreateRowSorter": false
+					"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+					"rowHeight": 40
+					"selectionBackground": new java.awt.Color( 4, 107, 103, 255 )
+					"selectionForeground": new java.awt.Color( 255, 255, 255, 255 )
+					"showHorizontalLines": true
+					"showVerticalLines": true
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 1
+				"column": 1
+				"rowSpan": 8
+				"fill": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "InfoClient"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/user.png" )
+				"margin": new java.awt.Insets( 0, 0, 0, 0 )
+				"text": ""
+				"minimumSize": new java.awt.Dimension( 200, 200 )
+				"maximumSize": new java.awt.Dimension( 200, 200 )
+				"borderPainted": false
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"focusPainted": false
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/user-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/user-h.png" )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 2
+				"hSizePolicy": 1
+				"vSizePolicy": 1
+				"anchor": 1
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer8"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "conculterSoldeButton"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/cs.png" )
+				"margin": new java.awt.Insets( 0, 0, 0, 0 )
+				"text": ""
+				"borderPainted": false
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"focusPainted": false
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/cs-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/cs-h.png" )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 4
+				"fill": 3
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "consulterComptesButton"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/cc.png" )
+				"margin": new java.awt.Insets( 0, 0, 0, 0 )
+				"text": ""
+				"borderPainted": false
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"iconTextGap": 0
+				"focusPainted": false
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/cc-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/cc-h.png" )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"fill": 3
+				"hSizePolicy": 1
+				"vSizePolicy": 1
+				"row": 5
+				"useParentLayout": false
+				"indent": 0
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer9"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 6
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logout"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Comfortaa SemiBold", 131073, 0, true )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/logout.png" )
+				"margin": new java.awt.Insets( 0, 0, 200, 0 )
+				"text": ""
+				"alignmentY": 0.0f
+				"maximumSize": new java.awt.Dimension( 87, 100 )
+				"minimumSize": new java.awt.Dimension( 87, 100 )
+				"preferredSize": new java.awt.Dimension( 87, 100 )
+				"borderPainted": false
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"requestFocusEnabled": false
+				"focusPainted": false
+				"rolloverIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/logout-h.png" )
+				"rolloverSelectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/images/logout-h.png" )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 7
+				"hSizePolicy": 0
+				"vSizePolicy": 0
+				"minimumSize": new java.awt.Dimension( 119, 45 )
+				"preferredSize": new java.awt.Dimension( 119, 45 )
+				"maximumSize": new java.awt.Dimension( 119, 45 )
+				"fill": 3
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer7"
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"row": 8
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 900, 740 )
+		} )
+	}
+}
