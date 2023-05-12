@@ -14,7 +14,7 @@ Before you start, make sure that you have the following software installed on yo
 
 ```
   Java IDE (We recommend IntelliJ IDEA)
-  MySQL Workbench (already configure and running server)
+  MySQL Workbench (already configured and running server)
 ```
 
 ### Installation
