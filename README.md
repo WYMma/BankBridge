@@ -65,7 +65,7 @@ BankBridge was built using the following technologies:
 
 ## Author
 
-BankBridge was created by Yassin Manita, a passionate software engineering student, who has put in countless hours to make this project a success. Check out my [LinkedIn](https://tn.linkedin.com/in/yassin-manita12) for more information.
+BankBridge was created by Yassin Manita, a passionate Computer Science Student, who has put in countless hours to make this project a success. Check out my [LinkedIn](https://tn.linkedin.com/in/yassin-manita12) for more information.
 
 ## License
 
