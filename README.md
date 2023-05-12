@@ -22,10 +22,9 @@ Partie Administrateur :
  Gérer les clients.
 Exemple pour l’interface de la gestion des Comptes : elle contient une liste qui
 représente les descriptions des comptes dans la banque. En plus, il doit contenir 5
-boutons nommés : &lt;&lt;Ajouter&gt;&gt;, &lt;&lt;Modifier&gt;&gt;, &lt;&lt;Supprimer&gt;&gt;, &lt;&lt;Enregistrer&gt;&gt;,
-&lt;&lt;Fermer&gt;&gt;.
-Le bouton &lt;&lt;Ajouter&gt;&gt; permet d’insérer dans la liste un compte. Le bouton &lt;&lt;
-Modifier &gt;&gt; permet de changer les données d’un compte qui existe déjà dans la liste.
-Le bouton &lt;&lt; Supprimer &gt;&gt; permet de supprimer un étudiant. Le bouton
-&lt;&lt;Enregistrer&gt;&gt; permet d’enregistrer la liste des comptes dans la base de données
-et le bouton &lt;&lt;Fermer&gt;&gt; pour quitter l’interface.
+boutons nommés : "Ajouter", "Modifier", "Supprimer", "Enregistrer", "Fermer".
+Le bouton "Ajouter" permet d’insérer dans la liste un compte. 
+Le bouton "Modifier" permet de changer les données d’un compte qui existe déjà dans la liste.
+Le bouton "Supprimer" permet de supprimer un utilisateur. 
+Le bouton "Enregistrer" permet d’enregistrer la liste des comptes dans la base de données
+et le bouton "Fermer" pour quitter l’interface.
