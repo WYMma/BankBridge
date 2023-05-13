@@ -30,14 +30,14 @@ Once you have the development environment set up and the project is running, you
 
 ### Customer Interface
 
-After logging in, customers will have access to the following features:
+After logging in (using login: client / pw:1511), customers will have access to the following features:
 
 * View account balances
 * View banking accounts linked to their profile
 
 ### Banker Interface
 
-After logging in, bankers will have access to the following features:
+After logging in (using login: banker / pw:1511), bankers will have access to the following features:
 
 * View all banking accounts in the database
 * Search through banking accounts by account number or customer name or account type
@@ -45,7 +45,7 @@ After logging in, bankers will have access to the following features:
 
 ### Admin Interface
 
-After logging in, administrators will have access to the following features:
+After logging in (using login: admin / pw:1511), administrators will have access to the following features:
 
 * View all banking accounts and user accounts in the database
 * Search through banking accounts and user accounts by account number, customer name, or username
