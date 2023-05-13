@@ -73,4 +73,4 @@ This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md)
 
 ## Acknowledgments
 
-We would like to thank all the individuals whose code was used, as well as those who provided inspiration and support.
+I would like to thank all the individuals whose code was used, as well as those who provided inspiration and support.
