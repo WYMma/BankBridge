@@ -2,7 +2,7 @@
 ETCorps
 /
 ETCorps-BMO-Account-186-International-BankBridge
-- name: Setup .NET Core SDK
+- name: Setup .NET Core SDK-[![.github/workflows/main.yml](https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge/actions/workflows/main.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge/actions/workflows/main.yml)-[![.github/workflows/main.yml](https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge/actions/workflows/main.yml/badge.svg?branch=ETCorps-%2F-ETCorps-BMO-Account-186-International-BankBridge)](https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge/actions/workflows/main.yml)Ai.automated.sysAdministratorAssistant
   uses: actions/setup-dotnet@v3.2.0
   with:
     # Optional SDK version(s) to use. If not provided, will install global.json version when available. Examples: 2.2.104, 3.1, 3.1.x, 3.x, 6.0.2xx
