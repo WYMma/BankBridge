@@ -1,5 +1,17 @@
 # BankBridge: Your Complete Banking Management System
-
+``{`# (Create a folder)
+[$ mkdir actions-runner && cd actions-runner# Download the latest runner package
+$ curl -o actions-runner-linux-arm64-2.307.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.307.1/actions-runner-linux-arm64-2.307.1.tar.gz# Optional: Validate the hash
+$ echo "01edc84342ef4128a8f19bc2f33709b40f2f1c40e250e2a4c5e0adf620044ab3  actions-runner-linux-arm64-2.307.1.tar.gz" | shasum -a 256 -c# Extract the installer
+$ tar xzf ./actions-runner-linux-arm64-2.307.1.tar.gz`]
+(Configure]
+[`# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge --token A3UZ673NS5O2YJXNV6KMKRDE37KIQ# Last step, run it!
+$ ./run.sh`)
+(Using your self-hosted runner)
+[`# Use this YAML in your workflow file for each job
+runs-on: self-hosted
+For additional details about configuring, running, or shutting down the runner, please check out our product docs.`]}``
 BankBridge is a powerful banking management system that makes use of Java SWING graphical interfaces and a robust MySQL database. It is designed to handle all data and records related to bank accounts and customers, with a wide range of features for customers, bankers, and administrators.
 
 Customers can easily view their account balances and banking accounts linked to them, while bankers have access to all banking accounts in the database and can perform various banking operations such as deposits, withdrawals, and transfers. Administrators have complete control over the system, allowing them to manage both banking accounts and user accounts. They can search through them, modify them, delete them, or add new ones as needed.
