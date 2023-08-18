@@ -1,0 +1,1 @@
+[![.github/workflows/main.yml](https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge/actions/workflows/main.yml/badge.svg?branch=ETCorps-%2F-ETCorps-BMO-Account-186-International-BankBridge&event=create)](https://github.com/ETCorps/ETCorps-BMO-Account-186-International-BankBridge/actions/workflows/main.yml)
