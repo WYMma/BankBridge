@@ -1,0 +1,3 @@
+$ ./config.sh --
+Type	Price	Quantity	Date	Fees	Cost	Proceeds	PNL	Notes	Action
+Sell	(+$/25,000.00 usd)	(-6.0 btc)	18 Aug 2023 10:12 PM UTC	($/-366.00 usd)	-	(+$/149,634 usd)	-	`{ [Transaction in My Portfolio Sell Price Per Coin] ($25000 usd.) [Total Received] ($150000.00 usd.) [Quantity Balance:] (17999993.99290332 BTC MAX.) [BTC sold -6.00.] (Total Received +$150000.00 usd.) [Date 2023-08-18 17:12.] (Fees -$366.00 usd.) [Notes ](`send.usd.proceeds`)['to'"dee-motor-company to purchase dodge challenger hellcat priced at (+$128456.00 usd) using the remaining value of usd for shipping costs, taxes, title, temp tags, and dealer fees."]['Paid from Chais Fitzwater]'at'[https://www.github.com/etcorps]('') }`	 
